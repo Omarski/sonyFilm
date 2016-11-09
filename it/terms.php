@@ -1,0 +1,12 @@
+<?php 
+
+$lang = "../it";
+$cssLink = "../css/terms.css";
+	
+?>
+
+<?php include "../includes/terms-header.php"; ?>
+	
+<p>Ho più di 14 anni. Sono il proprietario della foto. Sono l'unica persona nella foto. Sony Pictures Entertainment, Inc. 10202 W. Washington Blvd, Culver City, 90232 California, U.S.A. ("SPE") può mostrare pubblicamente la foto, il mio nome con le iniziali del mio cognome e la mia nazionalità sul Mosaico di Ricki and The Flash su <a href="event:http://www.rickiandtheflashmovie.net/momswhorock"><u>www.rickiandtheflashmovie.net/momswhorock</u></a>, su poster stampati, sulla Fanpage SPE di Facebook e in altre situazioni. Con la presente, autorizzo l'uso del suddetto materiale su Internet, compresi i social media, da parte di SPE, nonché la duplicazione, la revisione, la trasmissione e l'esibizione in pubblico, con qualsiasi mezzo, finalizzate a promuovere le attività descritte <a href="event:http://www.warnerbros.it/privacy-policy"><u>nell'Informativa sulla Privacy</u></a> del sito web di SPE e nelle <a href="event:http://www.warnerbros.it/condizioni-di-utilizzo"><u>Condizioni di Utilizzo</u></a>. Spuntando la suddetta casella, io sottoscritto do la mia autorizzazione e rinuncio a ogni diritto di approvazione degli usi descritti (nella misura in cui tali usi non danneggino il mio onore, la mia reputazione o la mia dignità), rinunciando altresì a qualsiasi tipo di risarcimento. Ho letto e compreso <a href="event:http://www.warnerbros.it/privacy-policy"><u>l'Informativa sulla Privacy</u></a> sul sito SPE e accetto le <a href="event:http://www.sonypictures.com/corp/onedirectionmovie_mosaic/termsofuse/index_ITL.php"><u>Condizioni di Utilizzo</u></a>. Sono a conoscenza della possibilità di ritirare il mio consenso all'utilizzo della foto in qualsiasi momento inviando un'email a <a href="event:mailto: isg_webmaster@spe.sony.com"><u> isg_webmaster@spe.sony.com</u></a>. SPE rimuoverà la mia foto dal Mosaico di Ricki and The Flash su <a href="event:http://www.rickiandtheflashmovie.net/momswhorock"><u>www.rickiandtheflashmovie.net/momswhorock</u></a>, ma potrà non essere in grado di rimuoverla dalle versioni stampate del Mosaico. Se sono minorenne, fornirò l'indirizzo email del genitore o del tutore legale, in modo che SPE possa chiedere conferma della sua approvazione alla mia partecipazione.</p>
+
+<?php include "../includes/terms-footer.php"; ?>

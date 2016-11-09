@@ -1,0 +1,509 @@
+/*---------------------------------------------------------------*/
+/*fonts*/
+/*@font-face {
+    font-family: Haettenschweiler;
+    src: url(../fonts/Haettenschweiler/haettenschweiler);
+    font-weight:lighter;
+}*/
+
+body {
+
+}
+
+/*JASON ADDED*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {background-color:#000}
+
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+  min-height: 100%; 
+  height: auto;
+}
+
+.loaderFrame {
+	background-color:#fff;
+	top:0;
+	margin:0;
+}
+
+.orientationWrapper {
+	width:100%;
+	height:100%;
+	min-width: 100%;
+	z-index: 2000;
+	background-color: #000;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+#cookies_container{
+	background-color: #fff;
+	padding-right: 20%;
+	padding-left:20%;
+	padding-top:0;
+	padding-bottom:0;
+	margin:0;
+}
+
+#sp-nettrack p{
+	font-size: 1.3vw;
+	line-height: 90%;
+	color: #000;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: left;
+	margin: 0;
+}
+
+#cookie-click {
+	color:red;
+}
+
+#sp-nettrack-button {
+     position: absolute;
+     right:6%;
+     top:15%;
+     cursor: pointer;
+}
+
+body > div { -webkit-transition: all 1s ease-in-out;
+ -moz-transition: all 1s ease-in-out;
+ -o-transition: all 1s ease-in-out;
+}
+
+/*header*/
+/*---------------------------------------------------------------*/
+
+.redBtnCont {
+	width:7%;
+	position: absolute;
+	left:60%;
+	top:10%;
+}
+
+.headerRedButtons{
+	font-family: 'Squada One';
+	font-size: .9vw;
+	text-wrap:none;
+	letter-spacing:.8px;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	color: #ffffff;
+	background-color: #cc292b;
+	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+}
+
+.headerRedButtons:hover {
+	background-color: #000;
+}
+
+.headerIntroVid {
+	margin-top:2px;
+}
+
+/*---------------------------------------------------------------*/
+.inTheatresCont {
+	width:8%;
+	position: absolute;
+	left:48%;
+	top:10%;
+}
+
+.inTheatresLocation{
+	width:100%;
+	position:absolute;
+}
+
+.inTheatresDate{
+	font-size:1.6vw;
+	margin-top: .7em;
+}
+
+/*---------------------------------------------------------------*/
+.headerCtaCont{
+	position: absolute;
+	left:45%;
+	width:15%;
+	bottom:15%;
+}
+
+.headerCtaText{
+	font-family: Helvetica;
+	font-size: .56vw;
+	color:#2c4d75;
+	float:left;
+	padding-right: 5%;
+	margin-top:1%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.headerCtaBtn{
+	font-family: Helvetica;
+	font-size: .6vw;
+	letter-spacing:.7px;
+	text-align: center;
+	float: left;
+	background-color:#2c4d75;
+	color:#ffffff;
+	max-width: 40%;
+	padding :0 3px 0 3px;
+	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*---------------------------------------------------------------*/
+.icon_fb ,.icon_twitter, .icon_t, .icon_audio{
+	position: absolute;
+	cursor: pointer;
+	width:22%;
+	top:108%;
+}
+
+.icon_fb {
+	left:0;
+}
+
+.icon_twitter {
+	left:25%;
+}
+
+/*.icon_t {
+	left:50%;
+}*/
+
+.icon_audio {
+	left:50%;
+}
+
+
+/*footer*/
+/*---------------------------------------------------------------*/
+
+.legal_link:link{
+	color:#fff;
+	text-decoration:none;
+}
+
+.legal_link:visited{
+	color:#fff;
+	text-decoration:none;
+}
+
+.legal_link:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+.legal_link:active{
+	color:#fff;
+	 text-decoration: none;
+}
+
+.footer_disc_cont{
+	position: absolute;
+	width:80%;
+	right:3%;
+	top:115%;
+}
+
+.footerCR {
+	font-family: Helvetica;
+	letter-spacing:.1em;
+	display:block;
+	position: absolute;
+	right:0;
+	text-align: left;
+	font-size: .8vw;
+	color:#fff;
+	padding:0;
+	margin: 0;
+}
+/*---------------------------------------------------------------*/
+.ratingCont{
+	position: absolute;
+	width:14%;
+	left:0;
+	top:110%;
+}
+
+.ratingImg {width:100%;} /*mix-blend-mode: multiply;*/
+
+/*---------------------------------------------------------------*/
+.flagsCont{
+	position: absolute;
+	width:10%;
+	height:30%;
+	left:45%;
+	top:20%;
+}
+
+.icon_fl_am, .icon_fl_fr, .icon_fl_de, .icon_fl_it, .icon_fl_jp, .icon_fl_ko, .icon_fl_es-la, .icon_fl_pt, .icon_fl_es-ca, .icon_fl_nl, .icon_fl_au, .icon_fl_sv, .icon_fl_br{
+	position: absolute;
+	cursor: pointer;
+	width:16%;
+}
+
+.icon_fl_am:hover, .icon_fl_fr:hover, .icon_fl_de:hover, .icon_fl_it:hover, .icon_fl_jp:hover, .icon_fl_ko:hover, .icon_fl_es-la:hover, .icon_fl_pt:hover, .icon_fl_es-ca:hover, .icon_fl_nl:hover, .icon_fl_au:hover,.icon_fl_sv:hover, .icon_fl_br:hover{
+	
+	border: 1px solid #000;
+}
+
+/*restore*/
+.icon_fl_am {
+	top:0;
+	left:16%;
+}
+/*.icon_fl_fr {
+	top:0;
+	left:16%;
+}*/
+.icon_fl_de {
+	top:0;
+	left:32%;
+}
+.icon_fl_it {
+	top:0;
+	left:48%;
+}
+/*
+.icon_fl_jp {
+	top:0;
+	left:64%;
+}*/
+/*.icon_fl_ko {
+	top:0;
+	left:80%;
+}*/
+.icon_fl_es-la {
+	top:0;
+	left:64%;
+}
+.icon_fl_pt {
+	top:70%;
+	left:0;
+}
+.icon_fl_es-ca {
+	top:70%;
+	left:16%;
+}
+.icon_fl_nl {
+	top:70%;
+	left:32%;
+}
+
+.icon_fl_au {
+	top:70%;
+	left:48%;
+}
+
+.icon_fl_sv {
+	top:70%;
+	left:64%;
+}
+
+.icon_fl_br {
+	top:70%;
+	left:80%;
+}
+
+/*restore*/
+/*.icon_fl_am {
+	top:0;
+	left:0;
+}
+.icon_fl_fr {
+	top:0;
+	left:16%;
+}
+.icon_fl_de {
+	top:0;
+	left:32%;
+}
+.icon_fl_it {
+	top:0;
+	left:48%;
+}*/
+/*
+.icon_fl_jp {
+	top:0;
+	left:64%;
+}*/
+/*.icon_fl_ko {
+	top:0;
+	left:80%;
+}*/
+/*.icon_fl_es-la {
+	top:0;
+	left:96%;
+}
+.icon_fl_pt {
+	top:70%;
+	left:0;
+}
+.icon_fl_es-ca {
+	top:70%;
+	left:16%;
+}
+.icon_fl_nl {
+	top:70%;
+	left:32%;
+}
+
+.icon_fl_au {
+	top:70%;
+	left:48%;
+}
+
+.icon_fl_sv {
+	top:70%;
+	left:64%;
+}
+
+.icon_fl_br {
+	top:70%;
+	left:80%;
+}*/
+
+/*modals*/
+/*---------------------------------------------------------------*/
+
+.zBoost {
+	z-index:1000;
+}
+
+.close {
+    color: #fff; 
+    opacity: 1;
+}
+
+.modalCenter {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 70px;
+}
+
+.vidModalFrame {
+  width:100%;
+  height:100%;
+/*  min-height:100%;*/
+}
+
+.vidModalCont {
+  background-color: #000;
+}
+
+.mainImageView{
+	width:100%;
+	/*margin-left: 0;
+	margin-right: 0;*/
+}
+
+.mainImageFrame{
+	width:35%;
+	max-width: 420px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 70%;
+}
+
+/* video overlay */
+/*---------------------------------------------------------------*/
+#videoOverlay_wrapper {
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0px;
+	left:0px;
+	border:0px solid red;
+	display:none;
+}
+#videoOverlay_player {
+	width:100%;
+	height:100%;
+	position:relative;
+	background-color:#000000;
+}
+
+.youtube-player	{
+	margin:30px 0 30px 0;
+	width:350px;
+	height:250px;
+}
+
+/*tiles*/
+/*---------------------------------------------------------------*/
+
+.R1C1,.R1C2,.R1C3,.R1C4,.R1C5,
+.R2C1,.R2C2,.R2C3,.R2C4,.R2C5,.R2C6,.R2C7,
+.R3C1,.R3C2,.R3C3,.R3C4,.R3C5,.R3C6,.R3C7,.R3C8,.R3C9 {
+
+	position: absolute;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.wallMain {position:absolute; left:24%; top:2.65%;  width:19.16%;}
+.wallCTA  {position:absolute; left:43.38%; top:4.47%;  width:19.58%;}
+
+.arrowL, .arrowR  {position:absolute; top:45%; width:5.2%; cursor:pointer; z-index: 100}
+.arrowL {left:3%;}
+.arrowR {right:3%;}
+
+.R1C1 { left:4.1%;    top:3.5%;  width:10.1%;}
+.R1C2 { left:14.01%;  top:0.56%; width:9.7%;}
+.R1C3 { left:62.76%;  top:3.5%;  width:10%;}
+.R1C4 { left:72.8%;   top:0.56%; width:9.73%;}
+.R1C5 { left:82.44%;  top:3.5%;  width:10.1%;}
+
+.R2C1 { left:4.3%;    top:35.66%;  width:9.8%;}
+.R2C2 { left:13.95%;  top:32.167%; width:9.9%;}
+.R2C3 { left:43.48%;  top:35.66%;  width:9.68%;}
+.R2C4 { left:53%;     top:32.167%; width:10%;}
+.R2C5 { left:63%;     top:35.66%;  width:9.73%;}
+.R2C6 { left:72.76%;  top:32.167%; width:10%;}
+.R2C7 { left:82.7%;   top:35.66%;  width:9.68%;}
+
+.R3C1 { left:4.16%;   top:66.85%; width:10%;}
+.R3C2 { left:13.85%;  top:63.5%;  width:10%;}
+.R3C3 { left:23.69%;  top:66.85%; width:10%;}
+.R3C4 { left:33.49%;  top:63.5%;  width:10%;}
+.R3C5 { left:43.28%;  top:66.85%; width:10.1%;}
+.R3C6 { left:53%;     top:63.5%;  width:10%;}
+.R3C7 { left:62.86%;  top:66.85%; width:9.94%;}
+.R3C8 { left:72.7%;   top:63.5%;  width:10%;}
+.R3C9 { left:82.6%;   top:66.85%; width:10%;}
+
+/*.wallThumb {width:100%}*/
+
+/*general*/
+.no-padding{
+	padding-left:0; 
+	padding-right:0;
+}
+
+.noBorder {border: none;}
+
+.full-image {
+	width:100%;
+}
+
+.centerItem {
+	margin-left: auto;
+	margin-right: auto;
+}
